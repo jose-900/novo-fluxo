@@ -5,6 +5,7 @@
   "main":"server.js",
   "scripts": {
     "dev": "ts-node-dev src/server.js",
+    "start":"server.js",
     "include": "src/**/*",
     "build":"rm -rf ./dist && tsc",
     "extends": "@tsconfig/node12/tsconfig.json" 
