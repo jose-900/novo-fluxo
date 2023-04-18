@@ -1,7 +1,8 @@
 {
   "name": "backend",
   "version": "1.0.0",
-   "license": "MIT",
+  "license": "MIT",
+  "start": "src/server.ts"
   "scripts": {
     "dev": "ts-node-dev src/server.ts",
     "include": "src/**/*"
