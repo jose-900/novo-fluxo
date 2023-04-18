@@ -2,9 +2,9 @@
   "name": "backend",
   "version": "1.0.0",
    "license": "MIT",
-  "main":"server.ts",
+  "main":"server.js",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts",
+    "dev": "ts-node-dev src/server.js",
     "include": "src/**/*",
     "build":"rm -rf ./dist && tsc",
     "extends": "@tsconfig/node12/tsconfig.json" 
